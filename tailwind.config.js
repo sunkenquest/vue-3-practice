@@ -5,8 +5,12 @@ export default {
     './src/**/*.{vue,js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'merriweather': ['Merriweather', 'serif'],
+      }
+    },
   },
-  plugins: [],
+  plugins: [[require('tailwind-hamburgers')]],
 }
 

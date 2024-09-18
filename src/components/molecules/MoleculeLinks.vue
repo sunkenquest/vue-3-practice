@@ -1,5 +1,5 @@
 <template>
-    <div class="flex justify-between">
+    <div class="relative flex flex-row gap-x-6">
         <AtomLink
             v-for="(link, index) in links"
             :key="index"
