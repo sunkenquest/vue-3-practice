@@ -8,7 +8,11 @@ export default {
     extend: {
       fontFamily: {
         'merriweather': ['Merriweather', 'serif'],
-      }
+      },
+      colors: {
+        'custom-pink': '#ff0082',
+        'custom-pink-hover': '#e60076',
+      },
     },
   },
   plugins: [[require('tailwind-hamburgers')]],

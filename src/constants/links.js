@@ -10,3 +10,7 @@ export const navLinks = [
 export const myAccLink = [
     { url: '#', name: 'My Account' },
 ]
+
+export const pricesLink = [
+    {url: '#', name: 'CHECK OUR PRICES'}
+]

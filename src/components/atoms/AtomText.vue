@@ -1,5 +1,5 @@
 <template>
-    <p :class="['pb-6', textColorClass, textFontClass]">{{ text }}</p>
+    <p :class="['pb-6', textColorClass, textFontClass, textFontSizeClass]">{{ text }}</p>
 </template>
 
 <script>
@@ -17,6 +17,10 @@ export default {
         font: {
             type: String,
             default: 'font-sans'
+        },
+        size: {
+            type: String,
+            default: 'text-base'
         }
     },
     computed: {
@@ -25,6 +29,9 @@ export default {
         },
         textFontClass(){
             return this.font
+        },
+        textFontSizeClass(){
+            return this.size
         }
     }
 }
